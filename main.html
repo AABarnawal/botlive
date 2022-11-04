@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/main.css">
+    <script>
+        function op(params) {
+            document.getElementById("hl").style.display = "block"; //shows the frame 
+            document.getElementById("clo").style.display = "block"; //shows the frame 
+            document.getElementById('bdy').style.opacity = ".2";
+        }
+        function cl(params) {
+            document.getElementById("hl").style.display = "none"; //hides the frame   
+            document.getElementById("clo").style.display = "none"; //hides the frame   
+            document.getElementById('bdy').style.opacity = "5";
+        }
+        
+        
+
+    </script>
+    
+</head>
+<body wrap="hard"  >
+    <h1 id="bdy" >Welcome <br> to the bot</h1>
+    <div id="hl" hidden>
+        <iframe src="./js/bot.html" title="description" style="opacity: 10;">
+        </iframe>
+        <button  id="clo" onclick="cl()"><strong>X</strong></button>
+    </div>
+     
+    <input type="button" id="opn" onclick="op()"/>
+    <br>
+</body>
+</html>
