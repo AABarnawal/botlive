@@ -3,7 +3,7 @@ body{
     background-image: url(/botlive.github.io/img/bak.png);
     padding: 5px;
     background-size: cover;
-    margin: -5px;
+    margin: -8px;
 }
 h1{
     
@@ -61,7 +61,6 @@ iframe{
 /*     background-image: url('/botlive.github.io/img/robot.png'); */
      content: "click it>>";
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 15px;
     color: white;
 } 
 
