@@ -72,14 +72,16 @@ function reply(q) {
     else if(q==3){
         console.log("pressed 3")
         var nl = document.createElement("li");
-        nl.innerHTML=`<a href='https://www.ggogle.com' target='_blank'>github</a>        `;
+        nl.innerHTML=`<a href='https://github.com/AABarnawal' target='_blank'>github</a>        `;
         document.getElementById("txt").appendChild(nl);
     }
     else if(q==4){
         console.log("pressed 4")
         var nl = document.createElement("li");
-        nl.innerHTML=`<a href='https://www.ggogle.com' target='_blank' style= >email</a>
-        <a href='https://www.ggogle.com' target='_blank' >linkdin</a>`;
+        nl.innerHTML=`<a href='https://mail.google.com/mail/?view=cm&fs=1&to=kr.ankit.1711@gmail.com' target='_blank' style= >email</a>
+        <a href='https://t.me/AABarnawal' target='_blank' >telegram</a>
+        <a href='https://www.linkedin.com/in/ankit-a-barnawal-5a56071a7' target='_blank' >linkdin</a>`;
+        nl.style.Color="black";
         document.getElementById("txt").appendChild(nl);
     }
     else{
