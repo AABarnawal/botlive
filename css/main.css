@@ -44,7 +44,7 @@ iframe{
 }
 #opn{
     height:50px;
-    width:150px;
+    width:120px;
     border-radius: 50px;
     box-shadow: 2px 2px 2px white;
     position: absolute;
@@ -62,11 +62,11 @@ iframe{
     color: white;
     text-align: right;
     text-align: right;
-    padding: 10px;
+    padding: 50px;
 }
-/* opn::before{
+opn::before{
     background-image: url('/botlive.github.io/img/robot.png');
     height:50px;
     width:100px;
-} */
+}
 /* <a href="https://www.flaticon.com/free-icons/bot" title="bot icons">Bot icons created by Smashicons - Flaticon</a> */
