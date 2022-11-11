@@ -8,7 +8,7 @@ body{
 h1{
     
     font-family: sketch;
-    font-size:85px;
+    font-size:80px;
     padding: 10px;
 /*     word-wrap: break-word; */
     color: azure;
@@ -57,7 +57,7 @@ iframe{
     background-color: aquamarine;
     border: 0;
 }
- #opn::before{
+ #opn:before{
 /*     background-image: url('/botlive.github.io/img/robot.png'); */
      content: "click it>>";
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
