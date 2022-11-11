@@ -66,7 +66,7 @@ function reply(q) {
             var nl = document.createElement("li");
             nl.innerHTML=`<img 
             style='height:120px; width:180px;' 
-            src='/img/kl.png'/>`;
+            src='/botlive.github.io/img/kl.png'/>`;
             document.getElementById("txt").appendChild(nl);
     }
     else if(q==3){
