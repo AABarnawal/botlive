@@ -68,8 +68,8 @@ iframe{
 /*     height:50px;
     width:100px; */
 } */
-button > img,
-button > strong {
-  vertical-align: middle;
+button > img{
+ height:50px;
+    width:50px
 }
 /* <a href="https://www.flaticon.com/free-icons/bot" title="bot icons">Bot icons created by Smashicons - Flaticon</a> */
