@@ -1,7 +1,8 @@
 body{
     overflow: scroll;
     background-image: url(/botlive.github.io/img/bak.png);
-    padding: 2px;
+    padding: 5px;
+    height: 100%;
     background-color: black;
     margin: -8px;
     background-repeat: no-repeat;
