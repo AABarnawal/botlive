@@ -2,15 +2,15 @@ body{
     overflow: scroll;
     background-image: url(/botlive.github.io/img/bak.png);
     padding: 5px;
-    background-size: cover;
+/*     background-size: cover; */
     margin: -5px;
 }
 h1{
     
     font-family: sketch;
-    font-size:100px;
+    font-size:90px;
     padding: 10px;
-    word-wrap: break-word;
+/*     word-wrap: break-word; */
     color: azure;
 }
 #hl{
