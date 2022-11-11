@@ -5,9 +5,9 @@ body{
 /*     background-size: cover; */
     margin: -8px;
     background-repeat: no-repeat;
-    background-size: 100% auto;
-/*     background-position: center top; */
-    background-attachment: fixed;
+    background-size: contain;
+    background-position: center;
+/*     background-attachment: fixed; */
 }
 h1{
     
