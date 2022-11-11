@@ -60,6 +60,8 @@ iframe{
     font-size: 15px;
     border: 0;
     color: white;
+    text-align: right;
+    padding: 10px;
 }
 opn::before{
     background-image: url('/botlive.github.io/img/robot.png');
