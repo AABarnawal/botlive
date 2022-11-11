@@ -1,9 +1,10 @@
 body{
     overflow: scroll;
     background-image: url(/botlive.github.io/img/bak.png);
-    padding: 5px;
+    padding: 2px;
     background-size: cover;
-    margin: -8px;
+    margin: -5px;
+    background-repeat: no-repeat;
 }
 h1{
     
@@ -57,7 +58,7 @@ iframe{
     background-color: aquamarine;
     border: 0;
 }
- #opn:before{
+ input::before{
 /*     background-image: url('/botlive.github.io/img/robot.png'); */
      content: "click it>>";
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
