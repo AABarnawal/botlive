@@ -65,11 +65,11 @@ iframe{
 }
 /* opn::before{
 /*     background-image: url('/botlive.github.io/img/robot.png'); */
-    height:50px;
-    width:100px;
+/*     height:50px;
+    width:100px; */
 } */
-button img{
-    height:50px;
-    width:50px;
+button > img,
+button > strong {
+  vertical-align: middle;
 }
 /* <a href="https://www.flaticon.com/free-icons/bot" title="bot icons">Bot icons created by Smashicons - Flaticon</a> */
