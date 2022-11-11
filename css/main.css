@@ -1,12 +1,13 @@
 body{
-    overflow: clip;
+    overflow: scroll;
     background-image: url(/botlive.github.io/img/bak.png);
     padding: 5px;
+    background-size: cover;
 }
 h1{
     
     font-family: sketch;
-    font-size:150px;
+    font-size:100px;
     padding: 10px;
     word-wrap: break-word;
     color: azure;
@@ -47,7 +48,7 @@ iframe{
     box-shadow: 2px 2px 2px white;
     position: absolute;
     right: 5%;
-    top: 90%;
+    top: 95%;
     background-image: url('/botlive.github.io/img/robot.png');
     background-repeat: no-repeat;
     background-size: 40px;
