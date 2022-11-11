@@ -2,7 +2,7 @@ body{
     overflow: scroll;
     background-image: url(/botlive.github.io/img/bak.png);
     padding: 5px;
-/*     background-size: cover; */
+    background-size: cover;
     margin: -5px;
 }
 h1{
@@ -68,7 +68,7 @@ iframe{
 /*     height:50px;
     width:100px; */
 } */
-button > img{
+#im{
  height:50px;
     width:50px;
 }
