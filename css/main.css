@@ -2,9 +2,12 @@ body{
     overflow: scroll;
     background-image: url(/botlive.github.io/img/bak.png);
     padding: 2px;
-    background-size: cover;
-    margin: -5px;
+/*     background-size: cover; */
+    margin: -8px;
     background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center top;
+    background-attachment: fixed;
 }
 h1{
     
