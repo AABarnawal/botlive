@@ -78,7 +78,7 @@ function reply(q) {
     else if(q==4){
         console.log("pressed 4")
         var nl = document.createElement("li");
-        nl.innerHTML=`Click on the given links:<br><a style="color:white; border-radius: 3px 12px;  text-decoration:none; background-color: #006666; padding:5px;" href='https://mail.google.com/mail/?view=cm&fs=1&to=kr.ankit.1711@gmail.com' target='_blank' style= > Email</a><br>
+        nl.innerHTML=`Click on the given links:<br><br><a style="color:white; border-radius: 3px 12px;  text-decoration:none; background-color: #006666; padding:5px;" href='https://mail.google.com/mail/?view=cm&fs=1&to=kr.ankit.1711@gmail.com' target='_blank' style= > Email</a><br>
         <br><a style="color:white; border-radius: 3px 12px;  text-decoration:none; background-color: #006666; padding:7px;" href='https://telegram.me/AABarnawal' target='_blank' > Telegram</a><br>
         <br><a style="color:white; border-radius: 3px 12px;  text-decoration:none; background-color: #006666; padding:7px;" href='https://www.linkedin.com/in/ankit-a-barnawal-5a56071a7' target='_blank' > Linkdin</a>`;
         document.getElementById("txt").appendChild(nl);
