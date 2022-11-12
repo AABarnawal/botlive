@@ -1,9 +1,8 @@
 body{
-    overflow: clap;
+    overflow: hidden;
     background-image: url(/botlive/img/bak.png);
     padding: 5px;
     text-align: center;
-    height: 640px;
     background-color: black;
     margin: -8px;
     background-repeat: no-repeat;
