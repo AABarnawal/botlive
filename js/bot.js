@@ -72,15 +72,15 @@ function reply(q) {
     else if(q==3){
         console.log("pressed 3")
         var nl = document.createElement("li");
-        nl.innerHTML=`<a style="color:white; text-decoration:none; border-radius: 7px 25px; background-color: #006666; padding:7px;" href='https://github.com/AABarnawal' target='_blank'>GITHUB</a>        `;
+        nl.innerHTML=`<a style="color:white; text-decoration:none; border-radius: 3px 12px; background-color: #006666; padding:7px;" href='https://github.com/AABarnawal' target='_blank'>GITHUB</a>        `;
         document.getElementById("txt").appendChild(nl);
     }
     else if(q==4){
         console.log("pressed 4")
         var nl = document.createElement("li");
-        nl.innerHTML=`<a style="color:white; border-radius: 7px 25px;  text-decoration:none; background-color: #006666; padding:5px;" href='https://mail.google.com/mail/?view=cm&fs=1&to=kr.ankit.1711@gmail.com' target='_blank' style= > Email</a><br>
-        <br><a style="color:white; border-radius: 7px 25px;  text-decoration:none; background-color: #006666; padding:7px;" href='https://t.me/AABarnawal' target='_blank' > Telegram</a><br>
-        <br><a style="color:white; border-radius: 7px 25px;  text-decoration:none; background-color: #006666; padding:7px;" href='https://www.linkedin.com/in/ankit-a-barnawal-5a56071a7' target='_blank' > Linkdin</a>`;
+        nl.innerHTML=`<a style="color:white; border-radius: 3px 12px;  text-decoration:none; background-color: #006666; padding:5px;" href='https://mail.google.com/mail/?view=cm&fs=1&to=kr.ankit.1711@gmail.com' target='_blank' style= > Email</a><br>
+        <br><a style="color:white; border-radius: 3px 12px;  text-decoration:none; background-color: #006666; padding:7px;" href='https://t.me/AABarnawal' target='_blank' > Telegram</a><br>
+        <br><a style="color:white; border-radius: 3px 12px;  text-decoration:none; background-color: #006666; padding:7px;" href='https://www.linkedin.com/in/ankit-a-barnawal-5a56071a7' target='_blank' > Linkdin</a>`;
         document.getElementById("txt").appendChild(nl);
     }
     else{
