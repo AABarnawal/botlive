@@ -55,7 +55,7 @@ function reply(q) {
     if(q==1){
         console.log("pressed 1")
         var nl = document.createElement("li");
-        nl.innerHTML="This is an automated bot developed with html,css&js  by Ankit Arvind Barnawal";
+        nl.innerHTML="This is an Informational bot developed with <br> html , css & js  by <br><strong>Ankit Arvind Barnawal</strong>";
         document.getElementById("txt").appendChild(nl);
     }
     else if(q==2){
@@ -66,21 +66,21 @@ function reply(q) {
             var nl = document.createElement("li");
             nl.innerHTML=`<img 
             style='height:120px; width:180px;' 
-            src='/botlive.github.io/img/kl.png'/>`;
+            src='/botlive/img/kl.png'/>`;
             document.getElementById("txt").appendChild(nl);
     }
     else if(q==3){
         console.log("pressed 3")
         var nl = document.createElement("li");
-        nl.innerHTML=`<a href='https://github.com/AABarnawal' target='_blank'>github</a>        `;
+        nl.innerHTML=`<a style="color:black; text-decoration:none; border:.5px solid black; padding:5px;" href='https://github.com/AABarnawal' target='_blank'>GITHUB</a>        `;
         document.getElementById("txt").appendChild(nl);
     }
     else if(q==4){
         console.log("pressed 4")
         var nl = document.createElement("li");
-        nl.innerHTML=`<a style="color:black; text-decoration: none; border:.5px solid black; padding:5px; align-text: center; width: 50%; " href='https://mail.google.com/mail/?view=cm&fs=1&to=kr.ankit.1711@gmail.com' target='_blank' style= >email</a><br>
-        <br><a href='https://t.me/AABarnawal' target='_blank' >telegram</a><br>
-        <br><a href='https://www.linkedin.com/in/ankit-a-barnawal-5a56071a7' target='_blank' >linkdin</a>`;
+        nl.innerHTML=`<a style="color:black; text-decoration:none; border:.5px solid black; padding:5px;" href='https://mail.google.com/mail/?view=cm&fs=1&to=kr.ankit.1711@gmail.com' target='_blank' style= > >> Email</a><br>
+        <br><a style="color:black; text-decoration:none; border:.5px solid black; padding:5px;" href='https://t.me/AABarnawal' target='_blank' > >> Telegram</a><br>
+        <br><a style="color:black; text-decoration:none; border:.5px solid black; padding:5px;" href='https://www.linkedin.com/in/ankit-a-barnawal-5a56071a7' target='_blank' > >> Linkdin</a>`;
         document.getElementById("txt").appendChild(nl);
     }
     else{
