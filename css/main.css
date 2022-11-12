@@ -3,6 +3,7 @@ body{
     background-image: url(/botlive/img/bak.png);
     padding: 5px;
     background-color: black;
+    align-item:left;
     margin: -8px;
     background-repeat: no-repeat;
     background-size: cover;
