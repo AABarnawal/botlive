@@ -100,10 +100,10 @@ function nke() {
         document.getElementById("txt").appendChild(nl);
         var l = document.createElement("li");
     l.innerHTML+= ` ${tmo(r)} , <strong>${nme}</strong> Send:-<br>
-    1 for About<br>
-    2 for Images of Project<br>
-    3 for Projects &<br>
-    4 for Contacts<br></br>`;
+    -1 for About<br>
+    -2 for Project screenshot<br>
+    -3 for Projects &<br>
+    -4 for Contacts<br></br>`;
     document.getElementById("txt").appendChild(l);
     //scroll down
     window.scrollTo(0,document.body.scrollHeight);
