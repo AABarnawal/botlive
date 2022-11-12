@@ -78,7 +78,7 @@ function reply(q) {
     else if(q==4){
         console.log("pressed 4")
         var nl = document.createElement("li");
-        nl.innerHTML=`<a style="color:black; text-decoration: none; border:2px solid black " href='https://mail.google.com/mail/?view=cm&fs=1&to=kr.ankit.1711@gmail.com' target='_blank' style= >email</a><br>
+        nl.innerHTML=`<a style="color:black; text-decoration: none; border:.5px solid black; padding:5px; align-text: center; width: 50%; " href='https://mail.google.com/mail/?view=cm&fs=1&to=kr.ankit.1711@gmail.com' target='_blank' style= >email</a><br>
         <br><a href='https://t.me/AABarnawal' target='_blank' >telegram</a><br>
         <br><a href='https://www.linkedin.com/in/ankit-a-barnawal-5a56071a7' target='_blank' >linkdin</a>`;
         document.getElementById("txt").appendChild(nl);
