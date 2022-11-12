@@ -34,6 +34,8 @@ iframe{
     position: absolute;
     border: 0;
     box-shadow: 2px 2px 2px black;
+    display:block;
+    left:5px;
 }
 #clo{
     z-index: 2;
