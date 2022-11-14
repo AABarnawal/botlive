@@ -64,6 +64,7 @@ iframe{
     background-position: center;
     background-color: aquamarine;
     border: 0;
+    Color: white;
 }
  input::before{
 /*     background-image: url('/botlive.github.io/img/robot.png'); */
