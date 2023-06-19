@@ -55,7 +55,7 @@ function reply(q) {
     if(q==1){
         console.log("pressed 1")
         var nl = document.createElement("li");
-        nl.innerHTML="This is an Informational bot developed with <br> <i>html , css & js</i>  by <br><strong>Ankit Arvind Barnawal</strong>";
+        nl.innerHTML="This is an Informational bot developed with <br> <i>html , css & js</i>  by <br><strong>Ankit Kumar</strong>";
         document.getElementById("txt").appendChild(nl);
     }
     else if(q==2){
